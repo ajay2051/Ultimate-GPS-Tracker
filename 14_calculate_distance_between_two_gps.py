@@ -3,7 +3,7 @@ import math
 earth_radius = 6371000
 
 def calculate_distance(lat_1, lon_1, lat_2, lon_2):
-    """calculate distance between two gps"""
+    """calculate distance between two gps..."""
     lat_1 = lat_1 * 2 * math.pi / 360
     lon_1 = lon_1 * 2 * math.pi / 360
     lat_2 = lat_2 * 2 * math.pi / 360
